@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.abspath('../azure'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.autosummary', 'sphinx.ext.doctest',
-              'sphinx.ext.viewcode', 'sphinx.ext.intersphinx', 'docfx_yaml.extension']
+              'sphinx.ext.intersphinx', 'docfx_yaml.extension']
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3.5', None),
